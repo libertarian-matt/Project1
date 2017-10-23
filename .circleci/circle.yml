@@ -1,10 +1,10 @@
-version: 2
+version: 1
 jobs:
   build:
-    
     working_directory: ~/circleci-demo-java-spring
     
     machine: true
+    
   ruby:
     version: rbx-2.2.6
 
